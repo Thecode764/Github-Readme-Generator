@@ -19,15 +19,14 @@
 <p align="center">I used flask and bootstrap only!</p>
 <h3 align="center">Run and debug</h3>
 <p align="center">
-    <code>
-        git clone https://github.com/Thecode764/Github-Readme-Generator
-        <br>
-        cd Github-Readme-Generator
-        <br>
-        pip3 install -r requirements.txt
-        <br>
-        python3 app.py
-    </code>
-<p>
+
+```
+git clone https://github.com/Thecode764/Github-Readme-Generator
+cd Github-Readme-Generator
+pip3 install -r requirements.txt
+python3 app.py
+```    
+
+</p>
 <h3 align="center">Notice</h3>
 <p align="center">This project is testing by developers if have bug please submit as a issue</p>
