@@ -1,4 +1,6 @@
-<img src="./logo/github-mark/github-mark-white.png" width="50">
+<p align="center">
+    <img src="./logo/github-mark/github-mark-white.png" width="50">
+</p>
 
 <h1 align="center">Github Readme Generator</h1>
 <p align="center">Free and open source tool for generate best github readme for you projects</p>
