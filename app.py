@@ -11,6 +11,7 @@ def home():
             dis = request.form.get("discord")
             pu = request.form.get("projectUrl") 
             ps = request.form.get("projectSetup") 
+            pd = request.form.get("projectDocs")
 
             html_content = f"""
 <h1 align="center">{pn}</h1>
@@ -38,6 +39,8 @@ def home():
 <p align="center">
     <img src="https://api.star-history.com/svg?repos={pu}&type=Date">
 </p>
+
+<p>More: [<a href="{pd}">Docs</a>]</a>
 """
 
             with open("out.md", "w") as filename:
