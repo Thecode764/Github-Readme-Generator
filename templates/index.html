@@ -42,7 +42,34 @@
             </form>
           </div>
         </div>
-      </nav>
+    </nav>
+      <div class="flex">
+        <img src="{{ url_for("static", filename="images/logo/github-mark/github-mark-white.png")}}" width="50">
+        <h1 class="text-center">Welcome to Github Readme Generator</h1>
+        <p class="text-center">Generate best readme for you github open source projects</p>
+      </div>
+       <form action="#" method="post">
+        <label>Project name:</label>
+        <input type="text" id="projectName" name="projectName">
+        <br>
+        <label>Tell more about your project:</label>
+        <br>
+        <textarea type="text" id="projectAbout" name="projectAbout"></textarea>
+        <br>
+        <label>You discord id:</label>
+        <input type="text" id="discord" name="discord">
+        <br>
+        <label>Repo url (For example Thecode764/Github-Readme-Generator): </label>
+        <input type="text" id="projectUrl" name="projectUrl">
+        <br>
+        <label>How to setup you project? </label>
+        <br>
+        <textarea type="text" id="projectSetup" name="projectSetup"></textarea>
+        <br>
+        <button type="submit" class="btn btn-light">Submit</button>
+    </form>
+    <h2 class="text-center">Output</h2>
+    <p class="text-center">Check out.md file</p>
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
       <script src="{{ url_for("static", filename="bootstrap-5.3.3-dist/js/bootstrap.js")}}"></script>
 </body>

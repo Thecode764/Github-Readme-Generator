@@ -28,5 +28,9 @@ python3 app.py
 ```    
 
 </p>
+<h3 align="center">Star history</h3>
+<p align="center">
+    <img src="https://api.star-history.com/svg?repos=Thecode764/Github-Readme-Generator&type=Date">
+</p>
 <h3 align="center">Notice</h3>
 <p align="center">This project is testing by developers if have bug please submit as a issue</p>
